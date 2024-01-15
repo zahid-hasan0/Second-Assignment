@@ -22,9 +22,10 @@
     color: #FFF;
    font-size: 20px;
     font-weight: 800;
-    margin-top: 20px;
+   
    
 }
+
 .title{
     font-size: 40px;
     color: #131318;
@@ -155,6 +156,9 @@ gap: 20px;
 .popular-title{
 
 }
+#Read-more{
+    margin-top: 20px;
+}
 
 #popular-list{
     margin:20px 20px;
@@ -199,11 +203,8 @@ gap: 20px;
 
     /* only flex direction change style  */
 
-    
-    .popular{
-        flex-direction: column;
-    }
 
+    
 
 
 
@@ -243,6 +244,17 @@ gap: 20px;
             align-items: center;
         }
 
+        .popular{
+            flex-direction: column;
+            
+        }
+        .popular-image{
+            width: 100%;
+        }
+        .popular-image img{
+            width: 100%;
+        }
+    
         
 
 }
