@@ -69,6 +69,9 @@ nav ul li a {
     font-weight: 400;
 
 }
+nav #bar{
+    display: none;
+}
 
 
 
@@ -132,4 +135,57 @@ gap: 20px;
     width: 174px;
     height: 52px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive for 600px  */
+
+@media screen and (max-width:600px) {
+    
+    header,main,footer{
+        padding: 0 1rem;
+    }
+
+        /* header section responsive  */
+        .banner{
+            height: auto;
+            margin-top: 20px;
+        }
+
+        nav ul li a{
+            display: none;
+        }
+        nav #bar{
+            display: flex;
+            padding-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        n
+        .banner-content{
+                padding-top: 2rem;
+        }
+        .banner-title{
+            color: #FFF;
+            font-family: Mulish;
+            font-size: 22px;
+
+            font-weight: 800;
+
+        }
+        .banner-form{
+            flex-direction: column;
+            align-items: center;
+        }
+
 }
