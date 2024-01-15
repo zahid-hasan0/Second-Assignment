@@ -173,7 +173,11 @@ gap: 20px;
         }
         n
         .banner-content{
-                padding-top: 2rem;
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 2rem;
+            
+            text-align: center;
         }
         .banner-title{
             color: #FFF;
