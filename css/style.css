@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+
+
+/* sheared style here  */
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+
+}
+
+.btn-primary{
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+   font-size: 20px;
+    font-weight: 800;
+   
+}
+.primary-description{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+}
+
+header,main,footer{
+    padding: 0 5rem;
+}
+
+/* header related style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+
+    font-weight: 800;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+  
+}
+nav ul li a {
+    text-decoration: none;
+    color:#424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    margin-right: 2rem;
+    font-weight: 400;
+
+}
+
+
+
+.banner{
+    border-radius: 16px;
+
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png) ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.banner-content{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    
+    text-align: center;
+}
+
+.banner-title{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.banner-form{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 16px;
+display:inline-flex;
+margin: 30px 10rem;
+gap: 20px;
+}
+
+#form{
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    font-weight: 400;
+    padding: 0px 10px;
+    width: 174px;
+    height: 52px;
+    
+}
