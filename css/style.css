@@ -704,6 +704,13 @@ small,#fot{
             margin: 20px;
         }
         
+        .discount-cart-second{
+            margin-left: 0px;
+            
+        }
+        .discount-1,.discount-2{
+            padding: 20px;
+        }
         
 
 }
