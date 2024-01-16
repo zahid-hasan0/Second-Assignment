@@ -28,6 +28,7 @@
     color: #FFF;
    font-size: 20px;
     font-weight: 800;
+    cursor: pointer;
    
    
 }
@@ -58,6 +59,8 @@ nav{
     align-items: center;
 }
 
+
+
 nav .logo{
     display: flex;
     align-items: center;
@@ -81,11 +84,15 @@ nav ul li a {
     font-family: Mulish;
     font-size: 18px;
     margin-right: 2rem;
-    font-weight: 400;
+    font-weight: 700;
 
 }
 nav #bar{
     display: none;
+}
+
+#home{
+    color: #FF5400;
 }
 
 
@@ -277,16 +284,18 @@ background: rgba(233, 68, 68, 0.05);
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 10px;
 
 }
-.discount-2{
-    margin: 20px 0px;
+
+.discount-second{
     background-image: url(../Images/discount2.png);
     width: 100%;
     height: 28rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 
 }
 
@@ -303,7 +312,7 @@ top: 70px;
 margin-right: 50px;
 }
 
-.cartosi{
+.discount-cart-second{
     width: 50%;
     border-radius: 16px;
 border: 2px solid #FFF;
@@ -311,10 +320,15 @@ background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 padding: 25px;
 position: relative;
-margin-right: auto;
+margin-left: 50px;
 top: 70px;
-margin-left: 3rem;
+margin-right: auto;
 }
+
+
+
+
+
 .icon-group{
     display: flex;
     gap: 30px;
@@ -440,7 +454,46 @@ footer>.footer-container>i{
 
 
 
+/* extra section start  */
 
+.extra{
+    margin: 50px 0px;
+}
+.package{
+    padding: 20px;
+    box-shadow: 17px 4px 16px gainsboro ;
+    text-align: center;
+}
+#package-content{
+    margin:50px auto;
+    padding-bottom: 50px;
+}
+#familly{
+    transform: scale(1.1);
+   
+    border: 2px solid #FF5400;
+}
+.package-des{
+    margin: 10px 0px;
+}
+.tour-package{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.tour-package>.package>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.package-title{
+    font-size: 1.4rem;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+#family-title{
+    font-size: 2rem;
+    font-weight: 900;
+}
 
 
 
@@ -576,9 +629,7 @@ footer>.footer-container>i{
         .discount-1,.discount-2{
             height: 500px;
         }
-        .cartosi  {
-            margin-left: auto;
-        }
+        
         .discount-cart{
             width: 80%;
             height: auto;
@@ -620,6 +671,18 @@ footer>.footer-container>i{
         footer {
             padding: 1px 1rem;
             margin: 0 auto 100px;
+        }
+        .tour-package{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+        }
+        #familly{
+            transform: none;
+        }
+
+        .popular,.destination,.choose,.extra,.discount,.perfect-place,.newsleter-container{
+            margin: 20px;
         }
         
         
