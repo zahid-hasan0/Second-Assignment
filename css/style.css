@@ -689,7 +689,7 @@ small,#fot{
         }
         footer {
             padding: 1px 1rem;
-            margin: 0 auto 100px;
+            margin: 0 auto 10px;
         }
         .tour-package{
             display: grid;
