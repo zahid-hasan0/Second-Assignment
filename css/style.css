@@ -631,7 +631,8 @@ footer>.footer-container>i{
         }
         
         .discount-cart{
-            width: 80%;
+            width: 100%;
+            padding: 10px;
             height: auto;
         }
         .icon-group{
